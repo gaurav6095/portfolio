@@ -189,10 +189,14 @@ function initTerminal() {
     if (cleanCmd === 'get-experience' || cleanCmd === 'experience') {
       appendOutput(`
         <div style="margin: 6px 0;">
-          <div class="term-val">ROLE: Windows System Administrator</div>
+          <div class="term-val">CURRENT ROLE: Windows Server Administrator</div>
           <div><span class="term-var">Organization:</span> CloudTechtiq Technologies · Jaipur</div>
-          <div><span class="term-var">Timeline:</span> DEC 2024 — PRESENT</div>
-          <div><span class="term-dim">Windows Server administration, troubleshooting, Microsoft 365 support, infrastructure operations, IIS hosting, database maintenance, security tooling, and automation workflows.</span></div>
+          <div><span class="term-var">Timeline:</span> JULY 2025 — PRESENT</div>
+          <div><span class="term-dim">Enterprise Windows Server (2016/2019/2022) administration, Active Directory (AD DS), Group Policy Objects (GPO), Microsoft 365, IIS web hosting & reverse proxy, MSSQL/MariaDB, and PowerShell automation.</span></div>
+          <div style="margin-top: 8px;" class="term-val">PREVIOUS ROLE: Desktop Support Engineer</div>
+          <div><span class="term-var">Organization:</span> IT Infrastructure Support</div>
+          <div><span class="term-var">Timeline:</span> NOV 2023 — JULY 2025</div>
+          <div><span class="term-dim">End-user computing support, computer hardware & OS troubleshooting, network connectivity, user provisioning in Active Directory, and IT service desk ticket resolution.</span></div>
         </div>
       `);
       return;
