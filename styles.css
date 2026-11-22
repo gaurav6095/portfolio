@@ -459,20 +459,22 @@ body {
 
 .profile-avatar-frame {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 1 / 1;
+  min-height: 280px;
   border: var(--border-width) solid var(--border-color);
   background: #1e293b;
   overflow: hidden;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
 }
 
+.profile-avatar-img,
 .profile-avatar-svg {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 .profile-info {
@@ -1042,7 +1044,7 @@ body {
 /* Education Cards Grid */
 .education-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
 
